@@ -1,0 +1,57 @@
+{
+
+  "AgregarTotal":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "#(idCategoryPet)",
+      "name": "#(CategoryName)"
+    },
+    "name": "#(NamePet)",
+    "photoUrls": [
+      "#(PhotoUrlPet)"
+    ],
+    "tags": [
+      {
+        "id": "#(idTagPet)",
+        "name": "#(TagNamePet)"
+      }
+    ],
+    "status": "#(status)"
+  },
+  "AgregarNombreyCategoria": {
+  "id": "#(idPet)",
+  "category": {
+    "id": "#(idCategoryPet)",
+    "name": "#(CategoryName)"
+  },
+  "name": "#(NamePet)",
+  "photoUrls": [
+    "TEST"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "TEST"
+    }
+  ],
+  "status": "TEST"
+  } ,
+  "AgregarNombre": {
+    "id": "#(idPet)",
+    "category": {
+      "id": 20,
+      "name": "TEST_SOLONOMBRE"
+    },
+    "name": "#(NamePet)",
+    "photoUrls": [
+      "TEST_SOLONOMBRE"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "TEST_SOLONOMBRE"
+      }
+    ],
+    "status": "TEST_SOLONOMBRE"
+  }
+}

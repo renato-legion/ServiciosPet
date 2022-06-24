@@ -1,0 +1,115 @@
+{
+  "ModifyTotal":{
+  "id": "#(idPet)",
+  "category": {
+    "id": "#(idCategoryPet)",
+    "name": "#(CategoryName)"
+  },
+  "name": "#(NamePet)",
+  "photoUrls": [
+    "#(PhotoUrlPet)"
+  ],
+  "tags": [
+    {
+      "id": "#(idTagPet)",
+      "name": "#(TagNamePet)"
+    }
+  ],
+  "status": "#(status)"
+  },
+  "ModifyCategory":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "#(idCategoryPet)",
+      "name": "#(CategoryName)"
+    },
+    "name": "" ,
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "status": ""
+
+  },
+  "ModifyNamePet":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "",
+      "name": ""
+    },
+    "name": "#(NamePet)" ,
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "status": ""
+
+  },
+  "ModifyTagPet":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "",
+      "name": ""
+    },
+    "name": "" ,
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": "#(idTagPet)",
+        "name": "#(TagNamePet)"
+      }
+    ],
+    "status": ""
+
+  },
+  "ModifyURLPet":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "",
+      "name": ""
+    },
+    "name": "" ,
+    "photoUrls": [
+      "#(PhotoUrlPet)"
+    ],
+    "tags": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "status": ""
+
+  },
+  "ModifyStatusPet":{
+    "id": "#(idPet)",
+    "category": {
+      "id": "",
+      "name": ""
+    },
+    "name": "" ,
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": "",
+        "name": ""
+      }
+    ],
+    "status": "#(status)"
+
+  }
+}
